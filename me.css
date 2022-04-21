@@ -1,0 +1,202 @@
+*html{
+-moz-box-align: center;
+}
+#body{
+    background-color: hsl(0, 0%, 98%);
+    text-align: center;
+}
+#h1{
+
+    color:hsl(229, 6%, 66%);
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 0px;
+}
+#h2{
+    color: hsl(234, 12%, 34%);
+font-weight: bolder;
+font-size:xx-large ;
+font-family: 'Raleway', sans-serif;
+padding-top: 0ch;
+padding-bottom: 0em;
+}
+#h3{
+    color: hsl(229, 6%, 66%);
+    font-size: small;
+    font-family: 'Raleway', sans-serif;
+}
+#h4{
+font-weight: 600;
+font-size: large;
+font-family: 'Raleway', sans-serif;
+color: hsl(234, 12%, 34%);
+}
+#p{
+    font-size: small;
+    color: hsl(229, 6%, 66%) ;
+    padding: 2px;
+}
+#p1{
+    background-color: hsl(180, 62%, 55%);
+    color:hsl(180, 62%, 55%) ;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    height: 5px;
+    font-size: 1px;
+}
+#p2{
+    background-color: hsl(0, 78%, 62%);
+    color: hsl(0, 78%, 62%);
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    height: 5px;
+    font-size: 1px;
+}
+#p3{
+    background-color: hsl(34, 97%, 64%);
+    color: hsl(34, 97%, 64%);
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    height: 5px;
+    font-size: 1px;
+}
+#p4{
+    background-color:  hsl(212, 86%, 64%);
+    color: hsl(212, 86%, 64%);
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    height: 5px;
+    font-size: 1px;
+}
+#svg{
+    float: right;
+    padding-right: 10%;
+}
+
+.container{
+padding-top :20px;
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 20px;
+    position: relative;
+    display: flex;
+}
+#card1{
+    display: inline-block;
+    position: absolute;
+   top: 150px;
+   left: 230px;
+  
+   background-color: white;
+width: 280px;
+height: 210px;
+border-bottom-left-radius: 5%;
+border-bottom-right-radius: 5%;
+border-top-left-radius: 5%;
+border-top-right-radius:5% ;
+box-shadow: 2px 2px 8px hsl(229, 6%, 66%);
+}
+@media only screen and (max-width: 600px){
+    #card1{
+        display: block;
+        width: 280px;
+     height: 210px;
+     position: absolute;
+     top: 40px;
+     left: -70px;
+    }
+}
+#card2{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 550px;
+    
+    background-color: white;
+width: 280px;
+height: 210px;
+border-bottom-left-radius: 5%;
+border-bottom-right-radius: 5%;
+border-top-left-radius: 5%;
+border-top-right-radius:5% ;
+box-shadow: 2px 2px 8px hsl(229, 6%, 66%);
+}
+@media only screen and (max-width: 600px){
+    #card2{
+        display: block;
+        width: 280px;
+height: 210px;
+position: absolute;
+top: 290px;
+left: -70px;
+    }
+}
+#card3{
+    display: inline-block;
+    position: absolute;
+    bottom:-1064%;
+    left: 550px;
+    background-color: white;
+width: 280px;
+height: 210px;
+border-bottom-left-radius: 5%;
+border-bottom-right-radius: 5%;
+border-top-left-radius: 5%;
+border-top-right-radius:5% ;
+box-shadow: 2px 2px 15px hsl(229, 6%, 66%);
+}
+@media only screen and (max-width: 600px){
+    #card3{
+        display: block;
+        width: 280px;
+height: 210px;
+position: absolute;
+top: 540px;
+left: -70px;
+    }
+}
+#card4{
+    position: absolute;
+    display:inline-block;
+    top:150px;
+    left: 65%;
+    background-color: white;
+width: 280px;
+height: 210px;
+border-bottom-left-radius: 5%;
+border-bottom-right-radius: 5%;
+border-top-left-radius: 5%;
+border-top-right-radius:5% ;
+box-shadow: 2px 2px 8px hsl(229, 6%, 66%);
+}
+@media only screen and (max-width: 600px){
+    #card4{
+        display:block;
+        width: 280px;
+height: 210px;
+position: absolute;
+top: 790px;
+left: -70px;
+
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 600px){
+    #card{
+        display: inline-block;
+    }
+}
+.attribution{
+    position: absolute;
+    bottom: -40px;
+}
+@media only screen and (max-width: 600px){
+    .attribution{
+        position: absolute;
+        bottom: -600px;
+    }
+}
